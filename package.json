@@ -1,7 +1,7 @@
 {
   "name": "react-button",
   "version": "0.0.0",
-  "description": "React Button Component",
+  "description": "A simple React Button made with React CDK",
   "repository": {
     "type": "git",
     "url": "https://github.com/you/repo.git"
