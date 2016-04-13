@@ -4,7 +4,7 @@
   "description": "A simple React Button made with React CDK",
   "repository": {
     "type": "git",
-    "url": "https://github.com/you/repo.git"
+    "url": "https://github.com/kadira-samples/react-button.git"
   },
   "license": "MIT",
   "scripts": {
