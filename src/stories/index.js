@@ -1,10 +1,13 @@
 import React from 'react';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf, action, linkTo } from '@kadira/storybook';
 import Button from '../index';
 
 storiesOf('Button', module)
   .add('default view', () => (
     <Button onClick={ action('button clicked') }>Hello</Button>
+  ))
+  .add('link button', () => (
+    <Button onClick={ linkTo('Button', 'some emojies as the text') }>Next Story</Button>
   ))
   .add('some emojies as the text', () => (
     <Button>😀 😎 👍 💯</Button>

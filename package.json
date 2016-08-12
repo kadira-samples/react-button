@@ -19,7 +19,8 @@
     "postpublish": "npm run publish-storybook"
   },
   "devDependencies": {
-    "@kadira/storybook": "^1.39.0",
+    "@kadira/storybook": "^2.2.1",
+    "@kadira/storybook-addon-hello": "^1.0.1",
     "babel-cli": "^6.5.0",
     "babel-core": "^6.5.0",
     "babel-eslint": "^6.0.2",
