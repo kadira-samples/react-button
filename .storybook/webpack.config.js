@@ -17,6 +17,13 @@ const config = {
       },
     ],
   },
+  externals: {
+    'jsdom': 'window',
+    'cheerio': 'window',
+    'react/lib/ExecutionEnvironment': true,
+    'react/lib/ReactContext': 'window',
+    'react/addons': true,
+  }
 };
 
 updateConfig(config);
