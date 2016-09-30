@@ -14,7 +14,7 @@
     "testonly": "mocha --require .scripts/mocha_runner src/**/tests/**/*.js",
     "test": "npm run lint && npm run testonly",
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
-    "storybook": "start-storybook -p 9010",
+    "storybook": "STORYBOOK_CLOUD_URL='https://storybook-hub-backend.herokuapp.com/graphql' STORYBOOK_CLOUD_APPID='02971a86-2477-4d9b-9226-66a3ee6a032b' STORYBOOK_CLOUD_DATABASE='test-database' start-storybook -p 3000",
     "publish-storybook": "bash .scripts/publish_storybook.sh",
     "postpublish": "npm run publish-storybook"
   },
