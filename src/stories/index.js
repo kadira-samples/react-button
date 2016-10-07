@@ -4,7 +4,11 @@ import Button from '../index';
 
 storiesOf('Button', module)
   .add('default view', () => (
-    <Button onClick={ action('button clicked') }>Hello</Button>
+    <pre>
+      process.env.STORYBOOK_CLOUD_URL: {process.env.STORYBOOK_CLOUD_URL}
+      process.env.STORYBOOK_CLOUD_APPID: {process.env.STORYBOOK_CLOUD_APPID}
+      process.env.STORYBOOK_CLOUD_DATABASE: {process.env.STORYBOOK_CLOUD_DATABASE}
+    </pre>
   ))
   .add('link button', () => (
     <Button onClick={ linkTo('Button', 'some emojies as the text') }>Next Story</Button>
