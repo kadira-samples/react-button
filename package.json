@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@kadira/storybook": "^2.24.0",
-    "@kadira/storybook-addon-comments": "^1.0.0",
+    "@kadira/storybook-addon-comments": "^1.6.1",
     "@kadira/storybook-addon-hello": "^1.0.1",
     "@kadira/storybook-database-cloud": "^2.1.2",
     "babel-cli": "^6.5.0",
